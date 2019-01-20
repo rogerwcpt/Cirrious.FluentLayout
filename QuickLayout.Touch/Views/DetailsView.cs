@@ -1,7 +1,7 @@
-using System.Reflection;
-using Cirrious.FluentLayouts.Touch;
+﻿using System.Reflection;
+using Cirrious.FluentLayouts.Shared;
 using MvvmCross.Binding.BindingContext;
-using MvvmCross.iOS.Views;
+using MvvmCross.Platforms.Ios.Views;
 using UIKit;
 using Foundation;
 using QuickLayout.Core.ViewModels;

@@ -1,8 +1,8 @@
 # FluentLayout
 
-FluentLayout provides an easy, fluent API for creating constraint-based layouts in Xamarin.iOS.
+FluentLayout provides an easy, fluent API for creating constraint-based layouts in Xamarin.iOS and Xamarin.tvOS
 
-[![Build Status](https://app.bitrise.io/app/3584ad3a37e4084c/status.svg?token=nxuhVtDms232YxvcvYIW0w&branch=master)](https://app.bitrise.io/app/3584ad3a37e4084c)
+Forked from [Cirrious.FluentLayout](https://github.com/FluentLayout/Cirrious.FluentLayout) to support tvOS and also to bring the Sample App up to date with the latest MvvmCross.  I had submitted my changes as a Pull Request before, but it was shot down.
 
 ## How To Use
 

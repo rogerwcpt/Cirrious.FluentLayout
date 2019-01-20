@@ -9,9 +9,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UIKit;
-using Cirrious.FluentLayouts.Touch.Extensions;
+using Cirrious.FluentLayouts.Shared.Extensions;
 
-namespace Cirrious.FluentLayouts.Touch
+namespace Cirrious.FluentLayouts.Shared
 {
     public static class AdvancedFluentLayoutExtensions
     {

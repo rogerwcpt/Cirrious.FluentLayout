@@ -85,11 +85,9 @@
     <MtouchArch>ARMv7</MtouchArch>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DebugTrace.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="Setup.cs" />
     <Compile Include="Views\ToCenterConstraintsView.cs" />
     <Compile Include="Views\DetailsView.cs" />
     <Compile Include="Views\FirstView.cs" />
@@ -104,7 +102,6 @@
     <Compile Include="Views\AdvancedVerticalStackView.cs" />
     <Compile Include="Views\DirectionFormView.cs" />
     <None Include="packages.config" />
-    <Compile Include="Bootstrap\MethodBindingPluginBootstrap.cs" />
     <Compile Include="Views\RightToLeftView.cs" />
     <Compile Include="Views\ViewWithSafeAreaView.cs" />
   </ItemGroup>
@@ -113,37 +110,8 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="MvvmCross.Platform">
-      <HintPath>..\packages\MvvmCross.Platform.4.4.0\lib\Xamarin.iOS10\MvvmCross.Platform.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MvvmCross.Platform.iOS">
-      <HintPath>..\packages\MvvmCross.Platform.4.4.0\lib\Xamarin.iOS10\MvvmCross.Platform.iOS.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MvvmCross.Core">
-      <HintPath>..\packages\MvvmCross.Core.4.4.0\lib\Xamarin.iOS10\MvvmCross.Core.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MvvmCross.iOS">
-      <HintPath>..\packages\MvvmCross.Core.4.4.0\lib\Xamarin.iOS10\MvvmCross.iOS.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MvvmCross.Binding">
-      <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\Xamarin.iOS10\MvvmCross.Binding.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MvvmCross.Binding.iOS">
-      <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\Xamarin.iOS10\MvvmCross.Binding.iOS.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MvvmCross.Localization">
-      <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\Xamarin.iOS10\MvvmCross.Localization.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="MvvmCross.Plugins.MethodBinding">
-      <HintPath>..\packages\MvvmCross.Plugin.MethodBinding.4.4.0\lib\Xamarin.iOS10\MvvmCross.Plugins.MethodBinding.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="MvvmCross">
+      <HintPath>..\packages\MvvmCross.6.2.2\lib\xamarinios10\MvvmCross.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -152,7 +120,7 @@
       <Name>Cirrious.FluentLayouts.Touch</Name>
     </ProjectReference>
     <ProjectReference Include="..\QuickLayout.Core\QuickLayout.Core.csproj">
-      <Project>{849AFB57-994A-42D9-A786-EF34FC951CDE}</Project>
+      <Project>{0E14AD0A-1F91-4CC5-AF19-767C02F829D5}</Project>
       <Name>QuickLayout.Core</Name>
     </ProjectReference>
   </ItemGroup>

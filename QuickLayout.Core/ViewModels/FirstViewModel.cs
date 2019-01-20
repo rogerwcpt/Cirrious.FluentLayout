@@ -1,32 +1,33 @@
-using MvvmCross.Core.ViewModels;
+using MvvmCross.Commands;
+using MvvmCross.ViewModels;
 
 namespace QuickLayout.Core.ViewModels
 {
     public class FirstViewModel
-        : MvxViewModel
+        : BaseViewModel
     {
-        public void GoDetails() => ShowViewModel<DetailsViewModel>();
+        public IMvxAsyncCommand GoDetails => new MvxAsyncCommand(() => ShowViewModel<DetailsViewModel>());
 
-        public void GoForm() => ShowViewModel<FormViewModel>();
+        public IMvxAsyncCommand GoForm => new MvxAsyncCommand(() => ShowViewModel<FormViewModel>());
 
-        public void GoFormGrid() => ShowViewModel<FormGridViewModel>();
+        public IMvxAsyncCommand GoFormGrid => new MvxAsyncCommand(() => ShowViewModel<FormGridViewModel>());
 
-        public void GoSearch() => ShowViewModel<SearchViewModel>();
+        public IMvxAsyncCommand GoSearch => new MvxAsyncCommand(() => ShowViewModel<SearchViewModel>());
 
-        public void GoTip() => ShowViewModel<TipViewModel>();
+        public IMvxAsyncCommand GoTip => new MvxAsyncCommand(() => ShowViewModel<TipViewModel>());
 
-		public void GoUpdateConstraints() => ShowViewModel<UpdateConstraintsViewModel>();
+		public IMvxAsyncCommand GoUpdateConstraints => new MvxAsyncCommand(() => ShowViewModel<UpdateConstraintsViewModel>());
 
-		public void GoAdvancedVerticalStack() => ShowViewModel<AdvancedVerticalStackViewModel>();
+		public IMvxAsyncCommand GoAdvancedVerticalStack => new MvxAsyncCommand(() => ShowViewModel<AdvancedVerticalStackViewModel>());
 
-	    public void GoFullSize() => ShowViewModel<FullSizeViewModel>();
+	    public IMvxAsyncCommand GoFullSize => new MvxAsyncCommand(() => ShowViewModel<FullSizeViewModel>());
 	    
-	    public void GoDirectionForm() => ShowViewModel<DirectionFormViewModel>();
+	    public IMvxAsyncCommand GoDirectionForm => new MvxAsyncCommand(() => ShowViewModel<DirectionFormViewModel>());
 
-        public void GoRightToLeft() => ShowViewModel<RightToLeftViewModel>();
+        public IMvxAsyncCommand GoRightToLeft => new MvxAsyncCommand(() => ShowViewModel<RightToLeftViewModel>());
 
-        public void GoViewWithSafeArea() => ShowViewModel<ViewWithSafeAreaViewModel>();
+        public IMvxAsyncCommand GoViewWithSafeArea => new MvxAsyncCommand(() => ShowViewModel<ViewWithSafeAreaViewModel>());
 
-        public void GoCenterConstraints() => ShowViewModel<ToCenterConstraintsViewModel>();
+        public IMvxAsyncCommand GoCenterConstraints => new MvxAsyncCommand(() => ShowViewModel<ToCenterConstraintsViewModel>());
     }
 }

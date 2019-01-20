@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UIKit;
 
-namespace Cirrious.FluentLayouts.Touch.RowSet
+namespace Cirrious.FluentLayouts.Shared.RowSet
 {
     public class RowSetTemplate
     {

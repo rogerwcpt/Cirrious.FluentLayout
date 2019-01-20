@@ -1,4 +1,4 @@
-﻿namespace Cirrious.FluentLayouts.Touch.Extensions
+﻿namespace Cirrious.FluentLayouts.Shared.Extensions
 {
 	internal static class ArrayExtensions
 	{

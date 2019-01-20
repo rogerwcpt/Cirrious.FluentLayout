@@ -1,4 +1,4 @@
-using MvvmCross.Core.ViewModels;
+﻿using MvvmCross.ViewModels;
 using QuickLayout.Core.Services;
 
 namespace QuickLayout.Core.ViewModels
@@ -37,7 +37,8 @@ namespace QuickLayout.Core.ViewModels
             set
             {
                 _generosity = Limit(value);
-				MvvmCross.Platform.Core.MvxAsyncDispatcher.BeginAsync(() => RaisePropertyChanged(() => Generosity));
+                //MvvmCross.Platform.Core.MvxAsyncDispatcher.BeginAsync(() => RaisePropertyChanged(() => Generosity));
+                RaisePropertyChanged(() => Generosity);
                 Recalcuate();
             }
         }

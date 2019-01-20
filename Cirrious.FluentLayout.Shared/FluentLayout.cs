@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using UIKit;
 using Foundation;
 
-namespace Cirrious.FluentLayouts.Touch
+namespace Cirrious.FluentLayouts.Shared
 {
     public class FluentLayout
     {

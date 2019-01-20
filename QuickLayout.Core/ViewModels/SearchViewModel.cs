@@ -1,4 +1,4 @@
-using MvvmCross.Core.ViewModels;
+﻿using MvvmCross.ViewModels;
 
 namespace QuickLayout.Core.ViewModels
 {

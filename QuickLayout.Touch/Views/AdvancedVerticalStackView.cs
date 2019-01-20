@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
-using Cirrious.FluentLayouts.Touch;
+using Cirrious.FluentLayouts.Shared;
 using UIKit;
 using Foundation;
 using QuickLayout.Core.ViewModels;
 using ObjCRuntime;
-using MvvmCross.iOS.Views;
+using MvvmCross.Platforms.Ios.Views;
 using MvvmCross.Binding.BindingContext;
 
 namespace QuickLayout.Touch

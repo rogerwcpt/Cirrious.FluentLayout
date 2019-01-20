@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{E52D0774-15B2-41AD-8544-6A63845182C1}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Cirrious.FluentLayout.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AdvancedFluentLayoutExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FluentLayout.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FluentLayoutExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Margins.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\ArrayExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NfloatExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIViewAndLayoutAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RowSet-WorkInProgress\RowSet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
+    <Folder Include="$(MSBuildThisFileDirectory)RowSet-WorkInProgress\" />
+  </ItemGroup>
+</Project>

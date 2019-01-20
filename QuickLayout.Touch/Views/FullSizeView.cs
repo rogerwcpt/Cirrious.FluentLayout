@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Cirrious.FluentLayouts.Touch;
+using Cirrious.FluentLayouts.Shared;
 using Foundation;
-using MvvmCross.iOS.Views;
-using MvvmCross.Platform;
+using MvvmCross.Platforms.Ios.Views;
 using ObjCRuntime;
 using UIKit;
 

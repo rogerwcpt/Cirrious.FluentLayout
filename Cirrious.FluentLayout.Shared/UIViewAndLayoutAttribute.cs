@@ -8,7 +8,7 @@
 using UIKit;
 using System;
 
-namespace Cirrious.FluentLayouts.Touch
+namespace Cirrious.FluentLayouts.Shared
 {
     public class UIViewAndLayoutAttribute
     {
